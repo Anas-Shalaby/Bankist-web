@@ -347,6 +347,7 @@ h4 {
   display: grid;
   grid-template-columns: 7rem 1fr;
   column-gap: 3rem;
+  position: relative;
   row-gap: 0.5rem;
 }
 
