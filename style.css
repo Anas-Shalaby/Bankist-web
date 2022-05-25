@@ -198,8 +198,17 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
+  position: relative;
+}
+.box2 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.box2 button {
+  position: absolute;
+  left: 10%;
+}
 .header__title {
   flex: 1;
 
