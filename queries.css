@@ -7,6 +7,12 @@
   h1 {
     font-size: 3.8rem;
   }
+  .btn--show-modal {
+    color: black !important;
+  }
+  .operations__tab {
+    color: black !important;
+  }
 }
 @media (max-width: 1050px) {
   .header__title {
@@ -187,11 +193,7 @@
   .features__feature {
     margin-left: -50px;
   }
-  .btn--show-modal {
-    color: black !important;
-  }
   .operations__tab {
-    color: black !important;
     padding: 1rem 1.2rem;
   }
 }
