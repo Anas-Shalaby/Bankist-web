@@ -176,3 +176,22 @@
     text-align: center;
   }
 }
+@media (max-width: 360px) {
+  html {
+    font-size: 28%;
+  }
+  .features {
+    margin: 0 0;
+    padding: 0 1rem;
+  }
+  .features__feature {
+    margin-left: -50px;
+  }
+  .btn--show-modal {
+    color: black !important;
+  }
+  .operations__tab {
+    color: black !important;
+    padding: 1rem 1.2rem;
+  }
+}
