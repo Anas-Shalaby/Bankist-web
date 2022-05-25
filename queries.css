@@ -194,12 +194,11 @@
     font-size: 1.4rem;
     display: flex;
     align-items: center;
+    color: black;
   }
   header {
     margin-bottom: -100px;
     height: 10px;
-    /* margin-top: -190px; */
-    padding: 10px 0 !important;
   }
   .operations__content {
     font-size: 1.9rem;
@@ -216,9 +215,8 @@
   .features img {
     width: 130%;
   }
-  .features {
-    align-items: center;
-    margin-left: -10px;
+  .features__feature p {
+    width: 190%;
   }
   .dots {
     position: absolute;
@@ -243,6 +241,6 @@
     margin-right: -1px;
   }
   .section {
-    padding: 15rem 2rem;
+    padding: 15rem 3rem;
   }
 }
