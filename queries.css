@@ -196,6 +196,15 @@
     align-items: center;
     color: black;
   }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+    width: 100%;
+    padding: 0 6rem;
+    z-index: 100;
+  }
   header {
     margin-bottom: -100px;
     height: 10px;
@@ -242,5 +251,11 @@
   }
   .section {
     padding: 15rem 3rem;
+  }
+  .btn--show-modal {
+    color: black;
+  }
+  .btn {
+    color: black;
   }
 }
