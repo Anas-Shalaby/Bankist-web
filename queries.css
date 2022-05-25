@@ -1,0 +1,248 @@
+/* BELOW 1200px ( Taplets ) */
+/* ********************************** */
+@media (max-width: 1200px) {
+  html {
+    font-size: 70%;
+  }
+  h1 {
+    font-size: 3.8rem;
+  }
+}
+@media (max-width: 1050px) {
+  .header__title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+  }
+  .header__img {
+    width: 50%;
+  }
+  h1 {
+    font-size: 5.8rem;
+  }
+  .features__feature p {
+    width: 140%;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .nav__links {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+  .nav-open ul {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    width: 100%;
+    transform: translateX(0);
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name='close-outline'] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
+    display: none;
+  }
+
+  .nav__links {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 930px) {
+  html {
+    font-size: 60%;
+  }
+  .features img {
+    width: 120%;
+  }
+  .features {
+    align-items: center;
+    /* margin-left: -10px; */
+    margin-bottom: -80px;
+  }
+  .features p {
+    width: 150%;
+  }
+  .section {
+    padding: 15rem 1rem;
+  }
+}
+@media (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 670px) {
+  html {
+    font-size: 50%;
+  }
+  .operations__tab-container span {
+    font-size: 1.2rem;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+  .img2 {
+    grid-row: 3;
+  }
+  .features__feature p,
+  .features h5 {
+    width: 150%;
+    transform: translateX(-20px);
+  }
+  .operations__tab {
+    /* margin-right: 5rem; */
+    padding: 1rem 2.5rem;
+    font-size: 1.28rem;
+  }
+  .operations__tab-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 560px) {
+  html {
+    font-size: 40%;
+  }
+  h1 {
+    margin-top: -90px;
+    text-align: center;
+  }
+  .header__title img {
+    width: 80%;
+  }
+  .features img {
+    width: 90%;
+  }
+  .features {
+    /* align-items: center; */
+    /* text-align: center; */
+    /* margin-left: -10px; */
+  }
+  .features p {
+    /* text-align: center; */
+    width: 100%;
+  }
+  .section {
+    padding: 15rem 2rem;
+  }
+}
+@media (max-width: 412px) {
+  .features img {
+    width: 130%;
+  }
+  .features {
+    align-items: center;
+    margin-left: -10px;
+  }
+  header {
+    margin-bottom: -120px;
+    height: 10px;
+    /* margin-top: -190px; */
+  }
+  .dots {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+}
+
+@media (max-width: 380px) {
+  .operations__tab {
+    /* margin-right: 5rem; */
+    padding: 0.5rem 1.5rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+  }
+  header {
+    margin-bottom: -100px;
+    height: 10px;
+    /* margin-top: -190px; */
+    padding: 10px 0 !important;
+  }
+  .operations__content {
+    font-size: 1.9rem;
+  }
+  .operations__content p {
+    width: 150%;
+    margin-left: -70px;
+  }
+  .operations__content h5 {
+    width: 100%;
+    font-size: 2.2rem;
+    /* text-align: center; */
+  }
+  .features img {
+    width: 130%;
+  }
+  .features {
+    align-items: center;
+    margin-left: -10px;
+  }
+  .dots {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .testimonial__text {
+    width: 120%;
+    margin-left: -20px;
+  }
+  .section__header {
+    /* text-align: center; */
+    width: 110%;
+    margin-left: -20px;
+  }
+  .footer__item {
+    margin-right: 3rem;
+  }
+  .footer__item:last-child {
+    margin-right: -1px;
+  }
+  .section {
+    padding: 15rem 2rem;
+  }
+}
