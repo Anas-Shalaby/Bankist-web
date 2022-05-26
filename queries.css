@@ -197,3 +197,14 @@
     padding: 1rem 1.2rem;
   }
 }
+@media (max-width: 260px) {
+  html {
+    font-size: 25%;
+  }
+  .header__title {
+    margin-top: 30px;
+  }
+  .footer {
+    margin-right: -10px;
+  }
+}
