@@ -24,6 +24,7 @@
     grid-template-columns: 3fr;
     gap: 100px;
     justify-items: center;
+    /* margin-top: 20px; */
   }
   .header__img {
     width: 50%;
@@ -128,8 +129,11 @@
   html {
     font-size: 50%;
   }
+  h1 {
+    font-size: 5rem;
+  }
 }
-@media (max-width: 560px) {
+/* @media (max-width: 560px) {
   html {
     font-size: 40%;
   }
@@ -139,8 +143,8 @@
   .header__img {
     width: 70%;
   }
-}
-@media (max-width: 450px) {
+} */
+@media (max-width: 565px) {
   html {
     font-size: 32%;
   }
@@ -180,6 +184,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .operations__tab {
+    padding: 1.4rem 4rem;
+  }
+  .operations__tab-container {
+    justify-content: space-around;
   }
 }
 @media (max-width: 360px) {
